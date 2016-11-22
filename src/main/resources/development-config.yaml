@@ -1,0 +1,14 @@
+##
+#
+
+memcache:
+  connectTimeout: 200ms
+  pool: 10
+  readTimeout: 80ms
+  remoteHost: localhost:11211
+
+usage:
+  blockTtl: 20s
+  maxRequestsFromIp: 10
+  maxRequestsFromSubnet: 30
+  ttl: 5m

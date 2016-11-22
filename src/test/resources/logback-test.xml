@@ -1,0 +1,18 @@
+<configuration>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <root level="WARN">
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+
+    <logger name="com.mj12" level="INFO" />
+    <logger name="ratpack" level="INFO" />
+
+</configuration>
